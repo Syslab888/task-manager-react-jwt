@@ -1,16 +1,142 @@
-# React + Vite
+# 🧩 Task Manager App (React + Node.js + JWT)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fullstack task management application with authentication, built using React on the frontend and Node.js on the backend.
+This project demonstrates real-world concepts such as login authentication, protected routes, API integration, and deployment.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 Frontend: https://task-manager-react-jwt-djjt.vercel.app/
+🔗 Backend API: https://task-manager-react-jwt.onrender.com/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🔐 Demo Access
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Use the credentials below to explore the application:
+
+- **Email:** admin@email.com
+- **Password:** 123
+
+⚠️ This is a demo project. Data may be reset at any time.
+
+---
+
+## 🧠 Features
+
+- 🔐 User authentication (JWT)
+- 🔒 Protected routes
+- ✅ Create, edit, and delete tasks (CRUD)
+- 📋 Task list with completion toggle
+- 🔍 Task details page
+- 🚪 Logout and session control
+- 💾 Token persistence with localStorage
+- 🌐 API integration (frontend ↔ backend)
+- 🚀 Full deployment (Vercel + Render)
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS / Tailwind
+
+### Backend
+
+- Node.js
+- Express
+- JSON Web Token (JWT)
+- CORS
+
+---
+
+## 📁 Project Structure
+
+```
+my-project/
+├── frontend/   # React app (Vite)
+├── backend/    # Node.js API
+```
+
+---
+
+## ⚙️ Installation (Local Setup)
+
+### 1. Clone the repository
+
+```
+git clone https://github.com/Syslab888/task-manager-react-jwt
+cd task-manager-react-jwt
+```
+
+---
+
+### 2. Frontend
+
+```
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+### 3. Backend
+
+```
+cd backend
+npm install
+npm run dev
+```
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file inside `/backend`:
+
+```
+EMAIL=demo@demo.com
+PASSWORD=123456
+JWT_SECRET=your_secret_key
+```
+
+---
+
+## 📌 Future Improvements
+
+- Database integration (MongoDB / SQLite)
+- User registration system
+- Persistent user-specific tasks
+- Improved UI/UX
+- State management (Redux / Context API)
+
+---
+
+## 💼 About This Project
+
+This project was built as part of my portfolio to demonstrate my ability to:
+
+- Build fullstack applications
+- Handle authentication flows
+- Work with APIs and state management
+- Deploy real-world applications
+- Debug and solve real issues during development
+
+---
+
+## 📫 Contact
+
+Feel free to reach out:
+
+- GitHub: https://github.com/Syslab888
+- LinkedIn: https://pt.linkedin.com/in/sylviaavelar
+
+---
+
+⭐ If you liked this project, feel free to star the repository!

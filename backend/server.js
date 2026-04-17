@@ -11,6 +11,7 @@ app.use(express.json());
 const SECRET = process.env.JWT_SECRET;
 const EMAIL = process.env.EMAIL;
 const PASS = process.env.PASSWORD;
+const PORT = process.env.PORT || 3000;
 
 app.post("/login", (req, res) => {
   const { email, password } = req.body;
@@ -26,4 +27,4 @@ app.post("/login", (req, res) => {
   return res.status(401).json({ error: "Credenciais inválidas" });
 });
 
-app.listen(3000, () => console.log("Servidor rodando"));
+app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));

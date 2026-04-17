@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000";
+const API_URL = "https://task-manager-react-jwt.onrender.com";
 
 export async function login(email, password) {
   const response = await fetch(`${API_URL}/login`, {

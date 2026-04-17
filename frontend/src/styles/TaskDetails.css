@@ -1,0 +1,50 @@
+/* 🔵 PAGE */
+.task-details-page {
+  min-height: 100vh;
+  background: linear-gradient(45deg, #0f172a, #1e293b, #334155);
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+/* 🔵 CONTAINER */
+.task-details-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* 🔵 BACK BUTTON */
+.back-button {
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.back-button:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* 🔵 CARD */
+.task-details-card {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 25px;
+  border-radius: 12px;
+  color: white;
+}
+
+.task-details-card h1 {
+  margin-bottom: 15px;
+  font-size: 26px;
+  color: white;
+}
+
+.task-details-card p {
+  line-height: 1.5;
+  opacity: 0.9;
+  color: whitesmoke;
+}

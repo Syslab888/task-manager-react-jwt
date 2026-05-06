@@ -12,7 +12,7 @@ function TaskDetails() {
     <div className="task-details-page">
       <div className="task-details-container">
         <button className="back-button" onClick={() => navigate(-1)}>
-          ← Voltar
+          ← Return
         </button>
 
         <div className="task-details-card">

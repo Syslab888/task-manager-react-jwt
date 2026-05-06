@@ -25,7 +25,7 @@ function Login() {
       localStorage.setItem("token", data.token);
       navigate("/tasks");
     } else {
-      setError("Credenciais inválidas");
+      setError("Invalid Credentials");
     }
   }
   return (
@@ -41,7 +41,7 @@ function Login() {
         <form onSubmit={handleLogin}>
           <input
             type="text"
-            placeholder="Nome"
+            placeholder="Email"
             value={email}
             autoComplete="off"
             onChange={(e) => setEmail(e.target.value)}
@@ -52,7 +52,7 @@ function Login() {
 
           <input
             type="password"
-            placeholder="Senha"
+            placeholder="Password"
             value={password}
             autoComplete="new-password"
             onChange={(e) => setPassword(e.target.value)}
@@ -62,7 +62,7 @@ function Login() {
           <br />
 
           <button type="submit" disabled={loading}>
-            {loading ? "Entrando..." : "Entrar"}
+            {loading ? "Loading..." : "Enter"}
           </button>
         </form>
       </div>
